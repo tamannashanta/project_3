@@ -1,0 +1,193 @@
+*{margin: 0 auto;
+padding: 0 auto;}
+/*header start*/
+.header{
+    min-height: 100px;
+    width: 100%;
+    background-color: #613202;
+    overflow: hidden;
+}
+.header_content{
+    min-height: 100px;
+    width: 80%;
+}
+.logo{
+    width: 30%;
+    float: left;
+    margin-top: 35px;
+    
+}
+.manuber{
+    width: 60%;
+    float: right;
+}
+.manuber{
+    
+}
+.manuber ul{
+    
+}
+.manuber ul li{
+    float: left;
+    list-style: none;
+}
+.manuber ul li a{
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    margin-top: 50px;
+    color: white;
+    transition: .5s;
+}
+.manuber ul li a:hover{
+    color: blue;
+}
+/*header end*/
+/*banner start*/
+.banner{
+  min-height: 400px;
+  width: 100%;
+  background-image: url(../images/glamor_background_hd_picture_4_169658.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+   overflow: hidden;
+}
+.banner_content{
+   margin: 50px;
+    width: 50%;
+    margin-top: 170px;
+    float: left;
+  }
+.banner_content h2{
+    font-size: 30px;
+    color: white;
+}
+.banner_content h1{
+    font-size: 40px;
+    color: white;
+}
+.banner_content p{
+    font-size: 20px;
+    color: white;
+}
+.banner_content button{
+        padding: 5px 20px;
+        font-size: 30px;
+        margin-top: 10px;
+}
+/*banner end*/
+/*service start*/
+.service{
+    background-color: #894400;
+    min-height: 300px;
+    overflow: hidden;
+}
+.service_content{
+    min-height: 300px;
+    width: 80%;
+}
+.single_service1{
+    width: 25%;
+    float: left;
+    margin: 34px;
+    
+}
+.image{
+    float: left;
+}
+.tittle{
+   float: left;
+    margin: 10px;
+    color: white;
+}
+.content{
+    float: left;
+    color: white;
+}
+/*service end*/
+/*article start*/
+.article{
+    min-height: 300px;
+    background-color: #613202;
+    overflow: hidden;
+}
+.article_content{
+    min-height: 300px;
+    width: 80%;
+  
+}
+.single_article1{
+    min-height: 300px;
+    width: 34%;
+    float: left;
+    color: white;
+    
+}
+.single_article1 h1{
+    padding: 10px;
+    font-size: 25px;
+}
+.single_article1 p{
+      font-size: 17px;
+      padding: 10px;
+}
+.single_article2{
+        padding: 75px;
+}
+.single_image{
+    float: left;
+    
+}
+.single_article2 h2{
+    color: white;
+
+}
+.single_article2 h1{
+   color: white;
+}
+.single_article2 button{
+       padding: 5px 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+/*article end*/
+/*footer start*/
+.footer{
+    min-height: 100px;
+    background-color: #894400;
+}
+.footer_content{
+    min-height: 100px;
+    width: 80%;
+    
+}
+.footer_navbar ul{
+    
+}
+.footer_navbar ul li{
+    float: left;
+    list-style: none;
+}
+.footer_navbar ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 22px;
+    margin-top: 20px;
+    color: white;
+    transition: .5s;
+}
+.footer_navbar ul li a:hover{
+    color: blue;
+}
+.footer_content p{
+        float: left;
+        color: white;
+        margin-top: 70px
+}
+.footer_right{
+    float: right;
+    margin: 30px;
+}
+/*footer end*/
